@@ -14,10 +14,10 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
-        <About />
-        <Skills />
+        {/* <About /> */}
         <Projects />
         <Experience />
+        <Skills />
         <Certifications />
         <Contact />
       </main>

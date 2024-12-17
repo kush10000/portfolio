@@ -19,7 +19,7 @@ export function About() {
             Full-stack developer with expertise in backend APIs using NodeJS, frontend UIs with ReactJS, and databases like MongoDB and PostgreSQL.
           </p>
         </motion.div>
-        <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        {/* <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <AboutCard
             icon={<GraduationCap className="h-10 w-10 text-primary" />}
             title="Education"
@@ -35,7 +35,7 @@ export function About() {
             title="Problem Solver"
             description="Solved 250+ coding problems on various platforms"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   )
