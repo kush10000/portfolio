@@ -41,7 +41,13 @@ export function About() {
   )
 }
 
-function AboutCard({ icon, title, description }) {
+interface AboutCardProps {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}
+
+function AboutCard({ icon, title, description }: AboutCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.8 }}
