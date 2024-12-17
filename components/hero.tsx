@@ -30,7 +30,7 @@ export function Hero() {
             </a>
           </Button>
           <Button variant="outline" size="lg" asChild className="group">
-            <a href="/kush_agarwal.pdf" download>
+            <a href="/Kush_Agarwal.pdf" download="Kush_Agarwal_Resume.pdf">
               Download Resume
               <Download className="ml-2 h-4 w-4 group-hover:translate-y-1 transition" />
             </a>
